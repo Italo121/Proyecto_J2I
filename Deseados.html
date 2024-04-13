@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Favoritos</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="Pagina_Inicio.html">J2I</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto bg-dark">
+              <li class="nav-item ">
+                <a class="nav-link" href="javascript:void(0)">Usuario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Carrito.html">Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Lista deseados</a>
+              </li>
+            </ul>
+            <form class="d-flex ">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container my-4">
+
+        <div class="row">
+          <img class="col-sm-2" src="img/perfil_testeo.png" height="100" width="100">
+          <h2 class="col-sm-10 my-4">Lista de deseados del usuario</h2>
+        </div>
+
+        <form class="d-flex my-3 me-5">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+
+            <div class="dropdown mx-5">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Opciones
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+              </ul>
+            </div>
+
+          <div class="dropdown ">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Ordernar por
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+          </div>
+        </form>
+
+        <div class="d-flex row bg-dark me-5 mx-1">
+
+          <div class="col-sm-4">
+            <img src="img/minecraft.jpg" width="300" height="200">
+          </div>
+
+          <div class="col-sm-4">
+            <div class="my-2">
+              <h3> Titulo del videojuego</h3>
+              <p> Descripcion del videojuego</p>
+              <p> Plataforma</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 d-flex justify-content-end">
+            <div class="my-5">
+              <h2>$9.000</h2>
+            </div>
+            <div class="my-5 mx-4">
+              <button class="btn btn-primary" type="button"> Añadir al carro</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="d-flex row bg-dark me-5 mx-1 my-2">
+
+          <div class="col-sm-4">
+            <img src="img/minecraft.jpg" width="300" height="200">
+          </div>
+
+          <div class="col-sm-4">
+            <div class="my-2">
+              <h3> Titulo del videojuego</h3>
+              <p> Descripcion del videojuego</p>
+              <p> Plataforma</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 d-flex justify-content-end">
+            <div class="my-5">
+              <h2>$9.000</h2>
+            </div>
+            <div class="my-5 mx-4">
+              <button class="btn btn-primary" type="button"> Añadir al carro</button>
+            </div>
+          </div>
+
+        </div>
+    </div>
+</body>
+</html>

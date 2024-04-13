@@ -7,35 +7,37 @@
     <title>Pagina inicio</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row p-3">
-            <h1 class="col-sm-9 d-flex justify-content-xl-start"> J2I</h1>
-            <a class="col-sm-1 d-flex justify-content-end icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
-                <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
-                Favoritos
-            </a>
-            <a href="Carrito.html" class="col-sm-1 d-flex justify-content-end icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
-                <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
-                Carrito
-            </a>
-            <a class="col-sm-1 d-flex justify-content-end icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="inicio_sesion.html">
-                <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
-                Usuario
-            </a>
-        </div >
-        <div class="container ">
-            <div class=" input-group">
-                <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="Search" aria-describedby="search-addon" />
-                <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>buscar</button>
-            </div>
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="Pagina_Inicio.html">J2I</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto bg-dark">
+              <li class="nav-item ">
+                <a class="nav-link" href="inicio_sesion.html">Usuario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Carrito.html">Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Deseados.html">Lista deseados</a>
+              </li>
+            </ul>
+            <form class="d-flex ">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
         </div>
-    </div>
+      </nav>
     <p></p>
-    <div class="container bg-dark text-white" style="border-success: 1rem;"">
+    <div class="container bg-dark text-white" >
         <div class="row p-3">
-            <a href="Detalle_videojuego.html" class="col-sm-4 border border-5"> <img src="img/minecraft.jpg" height="200" width="400"> </a>
-            <a href="Detalle_videojuego.html" class="col-sm-4 border border-5"> <img src="img/call_of_duty.png" height="200" width="400"> </a>
-            <a href="Detalle_videojuego.html" class="col-sm-4 border border-5"> <img src="img/darks_souls.png" height="200" width="400"> </a>
+            <a href="Detalle_videojuego.html" class="col-sm-4 border border-success border-5"> <img src="img/minecraft.jpg" height="200" width="400"> </a>
+            <a href="Detalle_videojuego.html" class="col-sm-4 border "> <img src="img/call_of_duty.png" height="200" width="400"> </a>
+            <a href="Detalle_videojuego.html" class="col-sm-4 border "> <img src="img/darks_souls.png" height="200" width="400"> </a>
         </div>
     </div>
     <div class="container bg-dark text-white" style="border-success: 1rem;"">
