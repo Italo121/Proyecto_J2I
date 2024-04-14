@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Pagina inicio</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark ">
         <div class="container-fluid">
-          <a class="navbar-brand " href="Pagina_Inicio.html">J2I</a>
+          <a class="navbar-brand " href="Pagina_Inicio.html"> <h1> J2I</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto bg-dark">
+            <ul class="navbar-nav me-auto bg-dark " style="border-radius: 1rem;">
               <li class="nav-item ">
-                <a class="nav-link" href="inicio_sesion.html">Usuario</a>
+                <a class="nav-link" href="Perfil.html"> <i class="fa-solid fa-user"></i> </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Carrito.html">Carrito</a>
+                <a class="nav-link" href="Carrito.html"> <i class="fa-solid fa-cart-shopping"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Deseados.html">Lista deseados</a>
+                <a class="nav-link" href="Deseados.html"> <i class="fa-solid fa-star"></i></a>
               </li>
             </ul>
             <form class="d-flex ">
@@ -33,21 +36,21 @@
         </div>
       </nav>
     <p></p>
-    <div class="container bg-dark text-white" >
+    <div class="container bg-dark text-white" style="border-radius: 1rem;">
         <div class="row p-3">
             <a href="Detalle_videojuego.html" class="col-sm-4 border border-success border-5"> <img src="img/minecraft.jpg" height="200" width="400"> </a>
             <a href="Detalle_videojuego.html" class="col-sm-4 border "> <img src="img/call_of_duty.png" height="200" width="400"> </a>
             <a href="Detalle_videojuego.html" class="col-sm-4 border "> <img src="img/darks_souls.png" height="200" width="400"> </a>
         </div>
     </div>
-    <div class="container bg-dark text-white" style="border-success: 1rem;"">
+    <div class="container bg-dark text-white" style="border-radius: 1rem;">
         <div class="row p-3">
             <a href="Pagina_juego.html" class="col-sm-4 border border-5"> <img src="img/terraria.png" height="200" width="400"> </a>
             <a href="Pagina_juego.html" class="col-sm-4 border border-5"> <img src="img/fnf.png" height="200" width="400"> </a>
             <a href="Pagina_juego.html" class="col-sm-4 border border-5"> <img src="img/garrys_mod.png" height="200" width="400"> </a>
         </div>
     </div>
-    <div class="container bg-dark text-white" style="border-success: 1rem;"">
+    <div class="container bg-dark text-white" style="border-radius: 1rem;">
         <div class="row p-3">
             <a href="Pagina_juego.html" class="col-sm-4 border border-5"> <img src="img/terraria.png" height="200" width="400"> </a>
             <a href="Pagina_juego.html" class="col-sm-4 border border-5"> <img src="img/fnf.png" height="200" width="400"> </a>
@@ -55,5 +58,35 @@
         </div>
     </div>
     <br>
+    <div class="container text-center  bg-dark" style="border-radius: 1rem;">
+        <div class="d-flex">
+            <div class="card mx-3 my-3 border border-success" style="width: 18rem;">
+                <img src="img/cag_terror.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text ">Busca los mejores juegos de terror y suspenso aqui.</p>
+                </div>
+            </div>
+            <div class="card mx-3 my-3 border border-success" style="width: 18rem;">
+                <img src="img/shooter.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"> Los mejores juegos de disparos en primera persona.</p>
+                </div>
+            </div>
+            <div class="card mx-3 my-3 border border-success" style="width: 18rem;">
+                <img src="img/carrera.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"> Los mejores videojuegos de carreras a los mejores precios</p>
+                </div>
+            </div>
+            <div class="card mx-3 my-3 border border-success" style="width: 18rem;">
+                <img src="img/accion.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Los mejores juegos de accion al mejor precio.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
 </body>
 </html>

@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Carrito</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row p-3">
-            <a href="Pagina_Inicio.html" class="col-sm-9 d-flex justify-content-xl-start "><h1> J2I</h1> </a>
-            <a class="col-sm-1 d-flex justify-content-end icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
-                <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
-                Favoritos
-            </a>
-            <a class="col-sm-1 d-flex justify-content-end icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
-                <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
-                Carrito
-            </a>
-            <a class="col-sm-1 d-flex justify-content-end icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="inicio_sesion.html">
-                <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
-                Usuario
-            </a>
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="Pagina_Inicio.html"> <h1> J2I</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto bg-dark " style="border-radius: 1rem;">
+              <li class="nav-item ">
+                <a class="nav-link" href="inicio_sesion.html"> <i class="fa-solid fa-user"></i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Carrito.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Deseados.html"> <i class="fa-solid fa-star"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex ">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
         </div>
-    </div>
+    </nav>
     <br>
     <div class="container">
-        <div class="row p-3 bg-dark text-white">
+        <div class="row p-3 bg-dark text-white" style="border-radius: 1rem;">
             <a class="col-sm-2" href="Detalle_videojuego.html"> <img src="img/minecraft.jpg" height="100" width="200"></a>
             <p class="col-sm-4 d-flex justify-content-end"> Detalles del videojuego</p>
             <p class="col-sm-4 d-flex justify-content-end"> $9.000</p>
@@ -40,7 +51,7 @@
     </div>
     <br>
     <div class="container">
-        <div class="row p-3 bg-dark text-white">
+        <div class="row p-3 bg-dark text-white" style="border-radius: 1rem;">
             <a class="col-sm-2" href="Detalle_videojuego.html"> <img src="img/minecraft.jpg" height="100" width="200"></a>
             <p class="col-sm-4 d-flex justify-content-end"> Detalles del videojuego</p>
             <p class="col-sm-4 d-flex justify-content-end"> $9.000</p>
@@ -54,7 +65,7 @@
     </div>
     <br>
     <div class="container">
-        <div class="row p-3 bg-dark text-white">
+        <div class="row p-3 bg-dark text-white" style="border-radius: 1rem;">
             <a class="col-sm-2" href="Detalle_videojuego.html"> <img src="img/minecraft.jpg" height="100" width="200"></a>
             <p class="col-sm-4 d-flex justify-content-end"> Detalles del videojuego</p>
             <p class="col-sm-4 d-flex justify-content-end"> $9.000</p>
@@ -68,7 +79,7 @@
     </div>
     <br>
     <div class="container">
-        <div class="row p-3 bg-dark text-white">
+        <div class="row p-3 bg-dark text-white" style="border-radius: 1rem;">
             <a class="col-sm-2" href="Detalle_videojuego.html"> <img src="img/minecraft.jpg" height="100" width="200"></a>
             <p class="col-sm-4 d-flex justify-content-end"> Detalles del videojuego</p>
             <p class="col-sm-4 d-flex justify-content-end"> $9.000</p>
