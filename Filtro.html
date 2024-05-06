@@ -64,32 +64,33 @@
   </section>
 
   <div class="container my-4">
-      <form class="d-flex my-3 me-1 justify-content-between">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <a class="btn btn-primary" href="Filtro.html" role="button">Buscar</a>
-
-        <div class="dropdown mx-1">
-          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-            Ordernar por
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Filtro.html">Nombre</a></li>
-            <li><a class="dropdown-item" href="Filtro.html">Fecha</a></li>
-            <li><a class="dropdown-item" href="Filtro.html">Categoria</a></li>
-          </ul>
+    <div class="row">   
+        <div class="col-sm-6 my-3 d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <a class="btn btn-primary" href="Filtro.html" role="button">Buscar</a>
         </div>
 
-        <div class="dropdown ">
-          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-            Precio
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Filtro.html">Menor precio a mayor</a></li>
-            <li><a class="dropdown-item" href="Filtro.html">Mayor precio a menor</a></li>
-          </ul>
-        </div>
+        <div class="col-sm-6 my-3">
+          <div class="dropdown ">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Ordernar por
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Filtro.html">Nombre</a></li>
+              <li><a class="dropdown-item" href="Filtro.html">Fecha</a></li>
+              <li><a class="dropdown-item" href="Filtro.html">Categoria</a></li>
+            </ul>
 
-      </form>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Precio
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Filtro.html">Menor precio a mayor</a></li>
+              <li><a class="dropdown-item" href="Filtro.html">Mayor precio a menor</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
   </div>
 
   <div class="container ">
