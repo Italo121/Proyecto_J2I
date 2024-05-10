@@ -61,22 +61,36 @@
         </div>
       </div>
     </nav>
-    <div class="container my-4">
-      <form class="d-flex my-3 me-5">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <a class="btn btn-primary" href="Filtro.html" role="button">Buscar</a>
+    <div class="container my-4">  
 
-        <div class="dropdown mx-1">
-          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
-            Ordernar por
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="HistorialCompra.html">Nombre</a></li>
-            <li><a class="dropdown-item" href="HistorialCompra.html">Fecha de compra</a></li>
-            <li><a class="dropdown-item" href="HistorialCompra.html">Categoria</a></li>
-          </ul>
+        <div class="row">   
+            <div class="col-sm-6 my-3 d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <a class="btn btn-primary" href="Filtro.html" role="button">Buscar</a>
+            </div>
+    
+            <div class="col-sm-6 my-3">
+              <div class="dropdown ">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                  Ordernar por
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Filtro.html">Nombre</a></li>
+                  <li><a class="dropdown-item" href="Filtro.html">Fecha</a></li>
+                  <li><a class="dropdown-item" href="Filtro.html">Categoria</a></li>
+                </ul>
+    
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                  Precio
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Filtro.html">Menor precio a mayor</a></li>
+                  <li><a class="dropdown-item" href="Filtro.html">Mayor precio a menor</a></li>
+                </ul>
+              </div>
+            </div>
         </div>
-      </form>
+
       <h2>Historial de compra</h2>
 
       <div class="d-flex row bg-dark me-5 mx-1" ">
